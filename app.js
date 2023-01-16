@@ -9,3 +9,5 @@ app.get("/",(req,res)=>{
 app.listen(8000,()=>{
     console.log("App running at 8000")
 })
+
+module.exports=app;
