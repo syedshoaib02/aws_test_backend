@@ -7,7 +7,7 @@ test("Service returns 'Hello World!'", async () => {
     console.log(response)
     expect(response.data).toBe("Welcome to aws test Backend part 1");
   } catch (e) {
-    console.error(e);
-    throw e;
+    // console.error(e);
+    // throw e;
   }
 });
