@@ -3,7 +3,7 @@ const app= express();
 
 
 app.get("/",(req,res)=>{
-  res.statusCode(500);
+  res.send("Welcome to aws test Backend part 1")
 })
 
 app.listen(8000,()=>{
