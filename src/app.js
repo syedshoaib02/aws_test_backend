@@ -3,7 +3,7 @@ const app= express();
 
 
 app.get("/",(req,res)=>{
-  res.send("Welcome to aws test Backend part 1")
+  res.send("hi all")
 })
 
 app.listen(8000,()=>{
