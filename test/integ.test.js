@@ -11,3 +11,25 @@ test("Service returns 'Hello World!'", async () => {
     throw e;
   }
 });
+
+
+// describe('Newman JSON validation', () => {
+//   it('validates JSON response', async () => {
+//       // Read CSV file
+//       const csvData = fs.readFileSync('path/to/data.csv', 'utf8');
+      
+//       // Run Newman command to get JSON response
+//       const { stdout } = await newman.run({
+//           collection: "../qrcode_data.json",
+//           environment: "../testcases/test_data.csv",
+//           iterationData: csvData,
+//           reporters: 'json',
+//       });
+
+//       // Parse JSON response
+//       const jsonResponse = JSON.parse(stdout);
+
+//       // Perform assertion on the JSON response
+//       assert.deepEqual(jsonResponse.run.stats.tests, jsonResponse.run.stats.passes);
+//   });
+// });
